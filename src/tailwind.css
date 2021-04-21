@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .bg-homepage {
+      background-color:#f0f2f5;
+    }
+  }
+}
